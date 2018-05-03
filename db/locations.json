@@ -1,0 +1,28 @@
+{
+  "location": [
+    {
+      "Name": "Starbucks",
+      "Address": "3045 abcd dr, Hermitage Tn",
+      "Time": "Morning",
+      "LocationImage": ""
+  },
+  {
+    "Name": "Providence",
+    "Address": "12045 providence way, MountJuliet Tn",
+    "Time": "Afternoon",
+    "LocationImage": ""
+},
+{
+  "Name": "Don Bros",
+  "Address": "2345 Union, Nashville Tn",
+  "Time": "Evening",
+  "LocationImage": ""
+},
+{
+  "Name": "Arcade",
+  "Address": "9876 Rice rd, Smyrna Tn",
+  "Time": "Evening",
+  "LocationImage": ""
+}
+]
+}
