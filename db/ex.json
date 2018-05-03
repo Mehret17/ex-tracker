@@ -1,11 +1,9 @@
-
 {
-  "Ex": [
+  "ex": 
     {
       "name": "Boo",
-      "Age": "30",
-      "Flaws": "Gives sincere apologies.",
-      "Image": ""
+      "age": "30",
+      "flaws": "Doesnt respect",
+      "image": ""
   }
-]
 }
