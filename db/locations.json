@@ -1,28 +1,28 @@
 {
-  "locations": [
-    {
-      "name": "Starbucks",
-      "address": "3045 abcd dr, Hermitage Tn",
-      "time": "Morning",
-      "image": ""
+"locations": [
+  {
+    "name": "Axum",
+    "address": "3045 abcd dr, Hermitage Tn",
+    "time": "Morning",
+    "image": "http://www.neontommy.com/sites/default/files/users/user1106/Starbucks.jpg"
   },
   {
-    "name": "Providence",
+    "name": "Lalibela",
     "address": "12045 providence way, MountJuliet Tn",
     "time": "Afternoon",
+    "image": "https://whc.unesco.org/uploads/thumbs/site_0018_0016-750-0-20151104173458.jpg"
+  },
+  {
+    "name": "Don Bros",
+    "address": "2345 Union, Nashville Tn",
+    "time": "Evening",
     "image": ""
-},
-{
-  "name": "Don Bros",
-  "address": "2345 Union, Nashville Tn",
-  "time": "Evening",
-  "image": ""
-},
-{
-  "name": "Arcade",
-  "address": "9876 Rice rd, Smyrna Tn",
-  "time": "Evening",
-  "image": ""
-}
+  },
+  {
+    "name": "Arcade",
+    "address": "9876 Rice rd, Smyrna Tn",
+    "time": "After Dark",
+    "image": ""
+  }
 ]
 }
