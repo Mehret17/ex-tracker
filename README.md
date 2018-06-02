@@ -1,22 +1,44 @@
-## Ex-tracker
+## Ex-Tracker
 
-## Description
-A project of creating an Ex-tracker website with the below features
-
-* Where search bar displayed where the search bar should filter the results s. On keypress, the text I type in the search bar should be contained in either the location title text or the location address of all cards still displayed.
-As a user, I should be displayed 4 button options for "time of day." (Options: Morning, Afternoon, Evening, After Dark). These buttons should filter the results down to each location that has a "Time That Ex Normally Goes" corresponding to the button clicked.
-
-[See project here](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_translator.md)
-
+## Description 
+An ex-tracker app where a user is able to track their ex by the location and time of the day.
+[See Assignment Here](https://github.com/nss-nightclass-projects/ex-tracker/blob/master/README.md)
 
 ## Technologies
-EventListener
+* Bootstrap
+* HTML 5
+* CSS
+* Javascript
+* Browserify
+* jquery
+* Google Fonts
 
-## How to Run
-Clone down this repo, and cd into project
-Install http-server plugin via npm
-In your terminal hs -p 8080
-In your browser navigate to: localhost:8080
+* Each ex is displayed with their picture, name and Flaws
+* Locations where exes go to are displayed with location name, address and time of the day where they usually go.
+![Webpage](https://raw.githubusercontent.com/Mehret17/ex-tracker/master/images/Page.PNG)
 
-## Contributors
+Button for time of the day is clicked
+![Webpage](https://raw.githubusercontent.com/Mehret17/ex-tracker/master/images/buttonClicked.PNG)
+
+Name of location is searched
+![Webpage](https://raw.githubusercontent.com/Mehret17/ex-tracker/master/images/nameofplaceTyped.PNG)
+
+Single Ex View
+![Webpage](https://raw.githubusercontent.com/Mehret17/ex-tracker/master/images/singleexview.PNG)
+
+
+## How to run 
+
+1. Clone down this repo, and cd into project folder
+2. Install http-server plugin via npm
+3. Install dependencies; run npm install in /lib
+4. Run grunt in /lib
+5. In your terminal hs -p 9999
+6. In your browser navigate to: localhost:9999
+
+Contributors: 
+
 [Mehret Kulala](https://github.com/Mehret17)
+
+
+
