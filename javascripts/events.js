@@ -1,6 +1,6 @@
-// const data = require('.data');
-// const dom = require ('.dom');
+const data = require('./data');
 
+// display by time of the day
 const displayCard = (e) => {
   const timeCard = $(e.target).html();
   console.log(timeCard);
@@ -45,6 +45,44 @@ const filterSearch = (e) => {
 const allEvents = () => {
   $('.button').on('click', displayCard);
   $('#mySearch').keydown((filterSearch));
+  SingleExCardEvent();
 };
 
-module.exports = allEvents;
+const SingleExCardEvent = () => {
+  $('.exCard').click((e) => {
+    // $('.exCard').not(`#${e.currentTarget.id}`).hide();
+    $('.exCard').not($(e.currentTarget)).hide();
+    console.log(e.currentTarget.id);
+    data.matchLocation(e.currentTarget.id).then((locations) => {
+      const locationNames = locations.map((loc) => loc.name);
+      console.log('locationNames:', locationNames);
+      $('.locationCard').each((i,locale) => {
+        const localeId = $(locale).attr('id');
+        console.log('locale:', localeId);
+        const inList = locationNames.includes(localeId);
+        $(locale).toggle(inList);
+        // if (locationNames.includes(localeId)) {
+        //   $(locale).show();
+        // } else {
+        //   $(locale).hide();
+        // };
+        $('#backButton').removeClass('hide');
+        $('.button').addClass('hide');
+        goBack();
+      });
+    });
+  });
+};
+
+const goBack = () => {
+  $('#backButton').click((e) => {
+    console.log('back:',e);
+    $('.exCard').show();
+    $('.locationCard').show();
+    $('.button').removeClass('hide');
+  });
+};
+
+module.exports = {
+  allEvents,
+};
