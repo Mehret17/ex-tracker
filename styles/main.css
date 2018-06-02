@@ -1,7 +1,57 @@
 body {
-  background-color: lightsalmon;
+  background: url('../images/bluegreenLights.background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* color: white; */
 }
 
-.exImage {
-  width: 100px;
+.title {
+  font-family: 'Anton', sans-serif;
 }
+#mySearch {
+  margin-bottom: 15px;
+}
+.exImage {
+  width: 250px;
+}
+
+/* #morningButton {
+  color:lightblue;
+}
+
+#afterNoonButton {
+  color: lightgoldenrodyellow;
+}
+
+#eveningButton {
+  color: lightgray
+}
+
+#afterDarkButton {
+  color:grey
+} */
+.timeButton {
+  margin-bottom: 50px;
+}
+
+#exContainer {
+  font-family: cursive;
+}
+
+#locationContainer {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.locationImage {
+  width: 250px;
+}
+/* 
+.exCard {
+  heigh
+} */
+
+/* locationCard {
+
+} */

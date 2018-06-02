@@ -1,5 +1,8 @@
-console.log('hi!');
+const data = require('./data');
+const events = require('./events');
 
-const initializer = require('./data');
-
-initializer();
+$(document).ready(() => {
+  data.initializer().then(() => {
+    events.allEvents();
+  });
+});
